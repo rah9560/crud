@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+    background-image: url("https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg");
+}
+.container{
+    border: 0px;
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    border-radius: 8px;
+    box-shadow: 20px 20px 20px .5px;
+    background-image: url("https://media.istockphoto.com/photos/beautiful-cover-of-gradient-background-rain-drops-on-glass-with-dark-picture-id854138766?k=20&m=854138766&s=170667a&w=0&h=pSX43xSfehbEVj2Wntz8jbxCevW0E0juWE9L74YhBmc=");
+}
+#text1{
+    font-weight: bold;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0.5px solid paleturquoise;
+    background-color: paleturquoise;
+}
+p{
+    margin: 15px;
+    line-height: 50px;
+}
+#text{
+    margin: 5px;
+    border: none;
+    position: relative;
+    bottom: 120px;
+    left: 80px;
+}
+.main{
+    display: flex;
+}
+#btn_upd{
+    width: 200px;
+}
+.Submit{
+    width: 140px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0.5px solid paleturquoise;
+    background-color: paleturquoise;
+    position: relative;
+    right: 85px;
+}
